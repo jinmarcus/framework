@@ -1613,7 +1613,7 @@ class Validate
 
             $msg = str_replace(
                 [':attribute', ':1', ':2', ':3'],
-                [$title, $array[0], $array[1], $array[2]],
+                [$this->lang->get($title), $array[0], $array[1], $array[2]],
                 $msg
             );
 
